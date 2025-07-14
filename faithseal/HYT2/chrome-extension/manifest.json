@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Ethics Sentinel",
+  "version": "0.1.0",
+  "description": "A browser extension to audit web content against faith-based principles.",
+  "permissions": [
+    "contextMenus",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup/popup.html"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png"
+  }
+}
